@@ -1,11 +1,65 @@
-<html>
-    <head>
-        <title>Static Site error</title>
-        <meta http-equiv=Content-Type content="text/html; charset=utf-8">
-    </head>
-    <body>
-        <p>Ops. Erro !!!</p>
-        <p><b>Kledson Basso</b><br /><a href="https://www.linkedin.com/in/kledsonbasso/">https://www.linkedin.com/in/kledsonbasso/</a></p>
-        <p></p>
-    </body>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erro no Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background: #f7f7f9;
+            color: #222;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: #fff;
+            padding: 2.5rem 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+            text-align: center;
+            max-width: 350px;
+            width: 100%;
+        }
+        .error-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #d32f2f;
+            margin-bottom: 0.5rem;
+        }
+        .error-msg {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        .author {
+            font-size: 1rem;
+            color: #555;
+        }
+        .author a {
+            color: #1976d2;
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .author a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="error-title">Ops! Algo deu errado.</div>
+        <div class="error-msg">Desculpe, ocorreu um erro inesperado.<br>Tente novamente mais tarde.</div>
+        <div class="author">
+            <b>Kledson Basso</b><br>
+            <a href="https://www.linkedin.com/in/kledsonbasso/" target="_blank" rel="noopener">
+                linkedin.com/in/kledsonbasso
+            </a>
+        </div>
+    </div>
+</body>
 </html>
