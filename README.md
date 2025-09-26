@@ -25,4 +25,4 @@ Este projeto é distribuído sob os termos da licença disponível em `LICENSE`.
 
 ## Autor
 
-Kledson Basso — https://www.linkedin.com/in/kledsonbasso/
+Gabriel Reis — https://www.linkedin.com/in/gabriel.reis/
